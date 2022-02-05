@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+	.check-content {
+		@apply mb-[51px] flex gap-4 mx-4 items-center;
+	}
+}
